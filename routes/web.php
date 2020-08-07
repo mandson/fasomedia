@@ -10,15 +10,8 @@ use Illuminate\Support\Facades\Route;
 | Here is where you can register web routes for your application. These
 | routes are loaded by the RouteServiceProvider within a group which
 | contains the "web" middleware group. Now create something great!
-|
-*/
-//<script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyCMikolpW0ogSResRrbiZXWyHCIEXR5Osc&exp&sensor=false&libraries=places">sensor=false"></script><br>
-Route::get('/2','NewsletterController@create');
-Route::post('/2','NewsletterController@store');
-
-
-
-
+|*/
+      
 
 Route::get('/1', function () {
     return view('welcome');
@@ -62,14 +55,24 @@ Route::get('international', function () {
     return view('pages.international');
 });
 
-/**************************************_.._INTERNATIONAL_ACTUALITE_.._******************************************** */
-Route::get('inter_societe', function () {
-    return view('international.societe');
-});
-
-Route::get('inter_politique','frontArticleController@index');
+/**************************************ROUTE _.._INTERNATIONAL_ACTUALITE_.._&NEWSLETTER******************************************** */
 
 
+                Route::get('inter_politique','frontArticleController@index');
+                Route::get('inter_economie','frontArticleController@index2');
+                Route::get('inter_societe','frontArticleController@index3');
+                Route::get('inter_cooperation','frontArticleController@index4');
+                Route::get('inter_culture','frontArticleController@index5');
+                Route::get('inter_autre','frontArticleController@index6');
+
+
+                Route::get('/2','NewsletterController@create');
+                Route::post('/2','NewsletterController@store');
+              
+                Route::get('mail','MailController@sendMailView' )->name('mail')  ;
+                Route::post('send_mail','MailController@sendMail')->name('sendMail');
+                
+/********************************************************FTK************************************************************************** */
 Auth::routes(['verify' => true]);
 // Auth::routes();
 

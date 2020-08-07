@@ -1,6 +1,3 @@
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,6 +7,11 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>ggggggggggg</h1>
+    <form action="" method="post">
+       Email:<input type="email" name="email" id="">
+     Nom:   <input type="text" name="" id="">
+     Prenom <input type="text" name="" id="">
+            <input type="submit" value="souscrire">
+    </form>
 </body>
 </html>

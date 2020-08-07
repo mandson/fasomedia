@@ -8,9 +8,9 @@
 
         <ol>
           <li><a href="/">Accueil</a></li>
-          <li>LA COOPERATION interNational</li>
+          <li>DIVERS interNational</li>
         </ol>
-        <h1>Cooperation-International</h1>
+        <h1>SCIENCE-DECOUVERTE-ECT..</h1>
 
       </div>
     </section><!-- End Breadcrumbs -->
@@ -25,8 +25,8 @@
 
             <article class="entry mt-5">
             <hr>
-            @if(isset($popular))
-                @foreach($popular->articles as $popular)
+            @if(isset($top))
+                @foreach($top->articles as $top)
 
               <div class="border ">
                   <br>
@@ -36,7 +36,7 @@
                   </div>
 
                   <h2 class="entry-title">
-                    <a href="{{$popular->url}}">{{$popular->title}}</a>
+                    <a href="{{$popular->url}}">{{$top->title}}</a>
                   </h2>
 
                   <div class="entry-meta">
@@ -49,9 +49,9 @@
 
               <div class="entry-content">
                 <p>
-                {{$popular->description}}  </p>
+                {{$top->description}}  </p>
                 <div class="read-more mt-4">
-                  <a href="{{$popular->url}}">voir plus</a>
+                  <a href="{{$top->url}}">voir plus</a>
                 </div>
               </div>
               @endforeach

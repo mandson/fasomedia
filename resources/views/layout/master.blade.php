@@ -51,8 +51,8 @@
         <a href="https://www.skype.com" class="skype"><i class="icofont-skype"></i></a>
         <a href="https://www.linkedin.com" class="linkedin"><i class="icofont-linkedin"></i></i></a>
       
-       <a href="#" class="login"> <i class="icofont-login"></i></i>Se connecter</a>
-       <a href="#" class="login"> <i class="icofont"></i></i>S'inscrire</a>
+       <a href="mail" class="login"> <i class="icofont-login"></i></i>S'Abonner a Notre Journal</a>
+       
 
       </div>
     </div>
@@ -81,12 +81,13 @@
 
  <li class="drop-down"><a href="international">A l'International</a>
             <ul>
-                <li><a href="international">Politiques</a></li>
-              <li><a href="international"> Economie</a></li>
-              <li><a href="international">Société</a></li>
-              <li><a href="international">Coopération</a></li>
-              <li><a href="international">Culture</a></li> 
-              <li><a href="contact">Contact</a></li>    
+                <li><a href="inter_politique">Politiques</a></li>
+              <li><a href="inter_economie"> Economie</a></li>
+              <li><a href="inter_societe">Société</a></li>
+              <li><a href="inter_cooperation">Coopération</a></li>
+              <li><a href="inter_culture">Culture</a></li> 
+              <li><a href="inter_contacte">Contact</a></li>    
+              <li><a href="inter_autre">Autre</a></li>    
             </ul>
           </li>
           
@@ -219,7 +220,7 @@
          <input type="email" name="email"><input type="submit" value="Subscribe">
         
         
- m    </form>
+    </form>
          
          
           </div>

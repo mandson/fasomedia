@@ -7,7 +7,7 @@
       <div class="container">
 
         <ol>
-          <li><a href="index.html">Accueil</a></li>
+          <li><a href="/">Accueil</a></li>
           <li>Un tourd a l'international</li>
         </ol>
         <h2>Actualite International</h2>
@@ -31,16 +31,16 @@
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
             <div class="icon-box">
-              <div class="icon"><i class="bx bx-file"></i></div>
-              <h4><a href="">Coopération</a></h4>
+            <h4><a href="inter_cooperation">Coopération <div class="icon"><i class="bx bx-file"></i></div>
+           
               <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
-            </div>
+              </a></h4> </div>
           </div>
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-tachometer"></i></div>
-              <h4><a href="">Culture</a></h4>
+              <h4><a href="inter_culture">Culture</a></h4>
               <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
             </div>
           </div>
@@ -56,7 +56,7 @@
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-slideshow"></i></div>
-              <h4><a href="">Autre</a></h4>
+              <h4><a href="inter_autre">Autre</a></h4>
               <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
             </div>
           </div>
@@ -64,7 +64,7 @@
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-arch"></i></div>
-              <h4><a href="">Economie</a></h4>
+              <h4><a href="inter_economie">Economie</a></h4>
               <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
             </div>
           </div>

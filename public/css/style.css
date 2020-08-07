@@ -1,0 +1,92 @@
+body {
+    overflow: hidden;
+  
+}
+
+/*taille des   images et logo */
+    .taille_admin{ 
+        width:90px; 
+        margin-left:-90px;
+        
+    }
+    .taille_image{ 
+        width:60px; 
+   
+    }
+
+      .droitelg{ 
+          width:200px;
+
+          margin-top:-2px;
+          background-color:#eeeded;
+        } 
+
+        .navdroit{
+            height:90px!important;
+            margin-top:2px;   
+        }
+       .logos{ 
+           padding: 50px;
+        margin-top:-14px;   
+        height: 90px;
+           weight:100px!important;
+        }
+       .milieu_droite{
+           margin:70px;   background-color:#19d7e8;  
+        }
+
+        .store{
+            background-color:white;
+            width:200px;
+             height:109px;
+             margin-top:-10px;
+             margin-left:-10px;
+             margin-bottom:-100px;    
+             }
+             /*couleur bleu et gris  utiliser*/
+             .mycolor
+      {
+           background-color:#19d7e8;
+
+      }
+      .mycolor2
+      {
+           background-color:#eeeded;
+        }
+        
+        /*Ajustement des different text*/
+     .text1{ color:white!important;}
+     .text2{ 
+         color:white;
+        margin-left:90px;
+        margin-top: 40px;
+        margin-bottom: -50px;
+    
+        }
+     .sous_theme{ background-color:white; 
+     border:solid 0.5px #19d7e8;
+     margin-top:25px;
+     padding-top:10px;
+
+         }
+     .divblue{
+        background-color:#19d7e8;
+          height:1600px;
+     }
+     .footer{ position: sticky;
+         margin-top:41%;
+         height:520px;
+         }
+/*************formulaire ajouter carte***************/
+.fcontainer{
+    overflow-y:auto ;
+   
+   height: 500px;
+   width: 130%;
+   }
+
+   .mycard{
+    
+  
+    box-shadow: 0 19px 18px rgba(18, 228, 200, 0.3),0 10px 12px rgba(0, 0, 0, 0.22);
+}
